@@ -1,0 +1,105 @@
+body{
+  background-color:black;
+}
+#play{
+  font-size:150%;
+  border-radius:20px;
+  margin:5%;
+}
+.card{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:40%;
+  height:80vh;
+  border:4px grey solid;
+  margin:auto;
+  margin-top:2%;
+}
+#pause{
+  margin:5%;
+font-size:150%;
+border-radius:20px;
+}
+.card-footer{
+  background-color:grey;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#next{ font-size:150%;}
+#prev{ font-size:150%;}
+body{
+  box-shadow: 2px 2px 3px black;
+}
+#vol-range{
+  width:85%;
+}
+#song-name{
+  text-align: center;
+  color:green;
+}
+#menu-bar,#close-menu-bar{
+width:10%;
+height:1%;
+font-size: 150%;
+padding:5%;
+color:blue;
+}
+
+
+#time{
+border-color: blue;
+border-radius: 3px;
+color:green;
+width: 100px;
+height: 1vh;
+}
+nav ul li{
+
+padding:1.5% 1.5% 1.5% 2%;
+padding-right: 0%;
+color:white;
+}
+nav ul li:hover{
+background-color:lightblue;
+transition: 0.7s;
+transform:scale(1.1);
+border-radius: 7px;
+}
+nav ul li #dark-theme{
+color:black;
+}
+#time{
+width: 100%;
+height:fit-content;
+}
+#time-ok{
+color:green;
+}
+#sub-menu{
+width:15%;
+border-radius: 2px;
+margin-left: 0%;
+}
+aside ul li:hover{
+background-color: black;
+}
+aside ul li a{
+padding-left:0%;
+color:green;
+text-decoration: none;
+}
+aside ul li{
+margin-left:0%;
+list-style-type: none;
+width:100%;
+color:green;
+}
+#vol-range{
+width:100%;
+color:green;
+}
+
+

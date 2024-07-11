@@ -1,0 +1,30 @@
+#forms{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(black,white);
+    margin-left:50%;
+    margin-top:10%;
+    width:250px;
+    height:60vh;
+    border-radius:30px;
+    box-shadow: 10px 10px 10px black;
+}
+#forms input{
+    margin-top:10px;
+    height:30px;
+    width:80%;
+}
+input{
+    width: 100%;
+    height:100%;
+    border-radius:8px;
+}
+.submi{
+    background-color:skyblue;
+}
+.go{
+    text-align: center;
+    transform: scale3d(1.5);
+    text-shadow: 3px 2px 5px red;
+}
